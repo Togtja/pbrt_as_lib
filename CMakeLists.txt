@@ -5,13 +5,6 @@ project(${PROJECT_NAME})
 set(SOURCE_FILES main.cpp)
 
 
-FIND_PACKAGE ( ZLIB )
-IF(NOT ZLIB_FOUND)
-  SET(ZLIB_LIBRARY zlibstatic)
-endif()
-
-
-
 INCLUDE_DIRECTORIES (
   external/pbrt-v3/src
   ${CMAKE_BINARY_DIR}/external/pbrt-v3/src
