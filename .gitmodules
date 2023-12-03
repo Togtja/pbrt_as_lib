@@ -1,3 +1,5 @@
-[submodule "external/pbrt-v3"]
-	path = external/pbrt-v3
-	url = https://github.com/mmp/pbrt-v3
+# Temporarly using my own for due to pull request needed for fixes
+[submodule "external/pbrt-v4"]
+	path = external/pbrt-v4
+	url = git@github.com:Togtja/pbrt-v4.git
+	branch = dev_cmake_improvments
